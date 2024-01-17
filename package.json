@@ -1,0 +1,34 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "this is a learning for my self",
+ 
+  "scripts": {
+       "test": "jest"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhagyavm2014/namastereact.git"
+  },
+  "keywords": [
+    "bhagya",
+    "learning",
+    "react",
+    "react"
+  ],
+  "author": "bhagya vardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhagyavm2014/namastereact/issues"
+  },
+  "homepage": "https://github.com/bhagyavm2014/namastereact#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
