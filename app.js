@@ -15,6 +15,25 @@ React.createElement("div",{id:"child2"},[
 );
 
 console.log(parent);
+const jsxHeading = <h1>Helloaa Bhagya</h1>
+
+const HeadingComponent = () => {
+
+    return <h1>hello bhagya 12</h1>
+} 
+const Title = () =>(
+    <div>
+      <h1> hello bhagya , </h1>
+    </div>  
+  );
+const HeadingComponent2 = () =>(
+
+    <div id="heading">
+            <Title />
+            <h2> kindly update code</h2>
+        </div>
+) ;
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(<HeadingComponent2 />);
+
 
